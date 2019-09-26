@@ -14,16 +14,81 @@ var mylastname = "Mohamed "
 /* create variable contains full name by join both of my first name var and my last name var 
 adding " " to make space betwwen first name and last name */
 // document .write an way to show full name variable
+// writing '<br/>' to make space one line
+document.write('<br/>',"creating varabiles to show full name");
 var fullname = "hello my first name is " + "  " + myfirstname + "  " + mylastname
-document.write(fullname);
+document.write('<br/>', fullname);
 
 // create variables with numbers values
 // create var to join numbers info and show on html
+
+document.write('<br/>','<br/>',"creating varabiles to show full number about the same person",'<br/>');
 var myage = 29
 var myweight = 77
 var myheight = 1.77
 var numberofmobiles = 4
 var numberoffamilymembers = 30
-var numberfacts = "My age is "  + myage + " & " + "My weight is" + myweight + " & " + "My Height is " + myheight + " & " +" i have " + numberofmobiles + " Mobiles" 
+var numberfacts ="My age is "  + myage + " & " + "My weight is" + myweight + " & " + "My Height is " + myheight + " & " +" i have " + numberofmobiles + " Mobiles" 
 + " & " + " I have " + numberoffamilymembers + " Members"
-document.write('<br/>' , numberfacts);
+document.write('<br/>', numberfacts);
+
+// adding all of these varaibles into one variable 
+
+var fullpersoninfo = fullname + numberfacts
+document.write('<br/>',fullpersoninfo,'<br/>');
+
+
+// creating other number variables to be used for mathmaticail issues
+var x = 215
+var y = 40
+var z = 60
+
+// creating variables to use diffrent cacluations 
+
+document.write('<br/>',"the value of x =215",
+'<br/>',"the value of y =40",
+'<br/>',"the value of z =60",)
+
+document.write( '<br/>',"cearting the mathmatics on direct way eg . x + y+ z")
+
+// sum x + y+ z
+var plus = x + y + z
+//same var plus = x += y+z
+document.write( '<br/>',"the value of plus = x + y + z is ", plus)
+
+// substration x - y - z
+var substration = x - y - z
+document.write( '<br/>',"the value of substration x - y - z is ",substration)
+
+// multiplication x * y * z
+var multiplication = x * y * z
+document.write( '<br/>',"the value of  multiplication x * y * z is ",multiplication)
+
+// division x / y / z
+var division = x / y / z
+document.write('<br/>',"the value of  division x / y / z is ",division)
+
+// plus and substration x + y - z
+var mixedplus = (x + y) - z
+// same as x + y -z
+document.write('<br/>',"the value of plus and substration x + y - z is ",mixedplus)
+
+// plus and multiplication x * y + z
+var mixedplus_multiplication = (x * y) + z
+// same as x * y +z
+document.write('<br/>',"the value of plus and multiplication (x * y) + z is ",mixedplus_multiplication)
+
+// plus and substration x - y * z
+var mixedsubstration_multiplication = (x - y) * z
+// same as x - y * z
+document.write('<br/>',"the value of substration & multiplication = (x - y) * z is ",mixedsubstration_multiplication)
+
+// plus and division x + y / z
+var mixedplus_division = (x + y) / z
+// same as x + y /z
+document.write('<br/>',"the value of plus and divison (x + y) / z is ",mixedplus_division)
+
+// division and substration x / y - z
+var mixedsubstration_division = (x / y) - z
+// same as x / y - z
+document.write('<br/>',"the value of substration & division = (x / y) - z is ",mixedsubstration_division)
