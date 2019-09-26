@@ -6,3 +6,6 @@ alert("welcome to java script basics")
 // myfirstname - name of variable 
 // "Moustapha " the value of myfirstname variable
 var myfirstname = "Moustapha"
+
+//create second variable
+var mylastname = "Mohamed "
