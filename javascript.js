@@ -91,4 +91,42 @@ document.write('<br/>',"the value of plus and divison (x + y) / z is ",mixedplus
 // division and substration x / y - z
 var mixedsubstration_division = (x / y) - z
 // same as x / y - z
-document.write('<br/>',"the value of substration & division = (x / y) - z is ",mixedsubstration_division)
+document.write('<h/6>','<br/>',"the value of substration & division = (x / y) - z is ",mixedsubstration_division)
+
+// if statement 
+// use simple example to determine the number is even or add
+
+document.write("<br><h4> using if statement </h4>")
+
+var number =8;
+document.write("<h4> the value of number</h4>", number ,"<br>")
+
+if(number%2===0){
+    document.write("its even number</br>")
+}
+else {document.write("its odd number</br>")};
+
+// use simple example to determine the number is positive or  negative number
+
+if(number>0){
+    document.write(" its positive number</br>")
+
+}else if(number<0){
+    document.write("its negative number</br>")
+
+}else {
+    document.write("its  not negative  nor positive number </br>")
+    
+}
+
+
+// use simple example to determine the number is positive and even number
+if(number%2===0 && number>0){
+    document.write(" its positive number and even </br>")
+}
+else {
+    document.write("its negative and odd number </br>")
+}
+
+
+// objects and Propreties
