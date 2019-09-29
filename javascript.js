@@ -169,4 +169,34 @@ default:
 }
 
 
-// objects and Propreties
+// Loops
+document.write("<br><h4> using  for Loops statement write numbers from 1 to 10 </h4>")
+//var xyz initalization of var
+// xyz<=0 the condition to run the loop
+// ++ or -- increment or decrement the value
+
+for (var xyz=1;xyz<=10;xyz++)
+{document.write(xyz,"<br></h4>")
+}
+
+document.write("<br><h4> using  for Loops statement write numbers from 2 and increaced by 2 </h4>")
+var xyz=2
+for (;xyz<=10;xyz+=2)
+{document.write(xyz,"<br></h4>")
+}
+
+document.write("<br><h4> using  While Loops statement write numbers from 1 and increaced by 2 show odd numbers </h4>")
+var xz = 1;
+while(xz<10)
+    {
+        document.write(xz,"<br></h4>")
+        xz=xz+2;
+}
+
+document.write("<br><h4> using  do while Loops statement write name </h4>")
+//at least the loop will run one time then check on condition even the condition is not true it will run one time
+var xy = 7;
+do {
+    document.write("Mostafa <br></h4>")
+    xy--;
+}while(xy>5);
