@@ -312,4 +312,42 @@ document.write("<br><h4> we can show all items of cars and  furit array by using
 
 document.write(cars.concat(furits));
 
-document.write("<br><h4> we can show all items of cars and  furit array by using concatenate</h4>")
+document.write("<br><h4> OBJECTS (Static Type)</h4>")
+
+var moderncar = {
+    car_model: "bmw",
+    car_engine: "electric engine type",
+    car_horsepower: 350,
+    car_maxspeed: 300
+}
+document.write("<br><h5>" + "Modern Car Object" + moderncar.car_model + " " + "Horse Power" + moderncar.car_horsepower + " " + "Car Engine Type" + moderncar.car_engine +
+    " " + "Car Maxium Speed " + moderncar.car_maxspeed + "</h5>")
+
+document.write("<br><h4> OBJECTS (Dynamic - General  Type - Function constraction)</h4>")
+//make a car template with comman data 
+// this key word refree to cardata to specfic properites to car data
+// car model, car engine are prameters for car data object
+
+function cardata(carmodel, carengine, carhorsepower, carmaxspeed) {
+    this.carmodel = carmodel;
+    this.carengine = carengine;
+    this.carhorsepower = carhorsepower;
+    this.carmaxspeed = carmaxspeed,
+        this.showcarData = function () {
+            document.write("Added New Car");
+        }
+}
+
+// adding other propreties for car data after the function 
+//cardata.numbersofwheels=4;
+
+//remove not importatant property 
+//delete cardata.carengine;
+
+//create new var for lada car called beko and use new key word for new object car data and write the prameters
+//call function showcarData
+
+var beko = new cardata("lada", "electric", 320, 333);
+beko.showcarData();
+document.write("<br><h4>" + "Car Name" + beko.carmodel + "  " + "Car Engine" + beko.carengine + "  " + "Car Horse Power" + beko.carhorsepower +
+    +"  " + "Car Max Speed " + beko.carmaxspeed + "</h4>")
