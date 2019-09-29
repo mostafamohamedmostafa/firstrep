@@ -200,3 +200,66 @@ do {
     document.write("Mostafa <br></h4>")
     xy--;
 }while(xy>5);
+
+
+document.write("<br><h4> using functions to add 2 numbers  HARD CODED FUNCTION  a = 4 and b =6 s</h4>")
+//make basic function to add 2  numbers
+// add2numbers is the function name 
+// () the parematers of function
+// var a , b , total things functions you put to excute
+// add2number(); call the function 
+// this function is hard code lets make it a little dynamic
+function add2numbers()
+{   var a=4;
+    var b=6;
+    var total = a+b;
+    document.write("the total of a+b is  <br></h4>",total )
+}
+
+add2numbers();
+
+document.write("<br><h4> using functions to add 2 numbers  f , t dynamic values</h4>")
+//make basic function to add 2  numbers
+// add2numbers is the function name 
+// () the parematers of function
+// addtwonumber(); call the function 
+function addtwonumbers(f , t)
+{   
+    var total = f+t;
+    document.write("the total of f+t is  <br></h4>",total )
+}
+
+addtwonumbers(4,8);
+
+
+document.write("<br><h4> using functions to concatenate 2 names mostafa and mohamed</h4>")
+//make basic function to concatenate strings
+// add2strings is the function name 
+// () the parematers of function
+// add2strings(); call the function 
+function add2strings(s1 , s2)
+{   
+    var total = s1+" "+s2;
+    document.write("the total of s1+s2 is  <br></h4>",total )
+}
+
+add2strings("Mostafa", "Mohamed");
+
+
+document.write("<br><h4> using functions to concatenate 2 names bmw and 318i</h4>")
+//make basic function to concatenate strings
+// add2car is the function name 
+// () the parematers of function
+// add2car(); call the function 
+// return value
+function add2car(d1 , d2)
+{   
+    var total = d1+" "+d2;
+    return total;
+}
+var output =add2car("BMW", "318I");
+
+document.write("the total of d1+d2 is  <br></h4>",output);
+
+
+
