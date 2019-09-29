@@ -128,5 +128,45 @@ else {
     document.write("its negative and odd number </br>")
 }
 
+// using exmaple of switch 
+document.write("<br><h4> using Switch  statement to show basic day  </h4>")
+
+
+var day = 7;
+
+switch(day)
+{
+    case 1:
+    document.write("Saturday </br>")
+    break;
+
+    case 2:
+    document.write("Sunday </br>")
+    break;
+
+    case 3:
+    document.write("Monday </br>")
+    break;
+
+    case 4:
+            document.write("Tuseday </br>")
+            break;
+
+    case 5:
+            document.write("Wedesday </br>")
+            break;
+
+    case 6:
+            document.write("Thurday </br>")
+            break;
+
+    case 7:
+            document.write("Firday </br>")
+            break;
+default:
+        document.write("Incorrect entry</br>")
+
+}
+
 
 // objects and Propreties
