@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // alert is the way to make pop up window with a certain message
 alert("welcome to java script basics")
 
@@ -352,3 +353,5 @@ var beko = new cardata("lada", "electric", 320, 333);
 beko.showcarData();
 document.write("<br><h4>" + "Car Name" + beko.carmodel + "  " + "Car Engine" + beko.carengine + "  " + "Car Horse Power" + beko.carhorsepower +
     +"  " + "Car Max Speed " + beko.carmaxspeed + "</h4>")
+=======
+>>>>>>> e7f91cfc7b94248317a1074e9c9967910fc70d2c
